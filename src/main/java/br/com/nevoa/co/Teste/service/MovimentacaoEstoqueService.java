@@ -2,7 +2,6 @@ package br.com.nevoa.co.Teste.service;
 
 import br.com.nevoa.co.Teste.model.MovimentacaoEstoque;
 import br.com.nevoa.co.Teste.repository.MovimentacaoEstoqueRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +12,7 @@ public class MovimentacaoEstoqueService {
 
     private final MovimentacaoEstoqueRepository movimentacaoEstoqueRepository;
 
-    @Autowired
+
     public MovimentacaoEstoqueService(MovimentacaoEstoqueRepository movimentacaoEstoqueRepository) {
         this.movimentacaoEstoqueRepository = movimentacaoEstoqueRepository;
     }

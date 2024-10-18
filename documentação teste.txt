@@ -1,0 +1,5 @@
+Primeiro fazer o git clone do repositorio do projeto
+Para testar a api primeiro alterar o arquivo aplication properties e por seu usuário e senha do postgreSQL
+Após feita a configuração executar a api no arquivo com o nome testeaplication, depois enquanto vai carregando o projeto abrir o postman e fazer requisição com o método post se for com o endpoint produto,
+no caso de ser relacionado a movimentação usar os métodos post e get no get passar o /id 
+caso não esteja usando a intellij instalar o plugin do lombok
